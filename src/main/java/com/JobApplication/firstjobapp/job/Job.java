@@ -7,7 +7,7 @@ import jakarta.persistence.*;
 //@Table(name = "job_table")
 public class Job {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)  //AutoIncreamented type
+    @GeneratedValue(strategy = GenerationType.IDENTITY)  //  AutoIncreamented type
     private Long id;
     private String title;
     private String description;
